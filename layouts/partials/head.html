@@ -29,7 +29,7 @@
 		<ul class="flat" style="display:flex; justify-content:space-around;">
 			{{ range .Site.Menus.main }}
 			<li>
-				<a href="{{ .URL }}" style="font-family: Iosevka Slab;">{{ .Name | plainify | lower }}</a>
+				<a href="{{ .URL }}" style="font-family: Iosevka Slab;">{{ .Name }}</a>
 			</li>
 			{{ end }}
 		</ul>
